@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- $primary-color: #ffffff;
+ $primary-color: #FAF9FF;
 
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
@@ -21,13 +21,16 @@ h1,h1,h3{
     font-family:'Bungee';
     color:$primary-color;
 }
-body{
-    background: #093028;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+.navbar,.home-callout{
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar{
     border:none;
-
+}
+.home-callout{
+    margin-top:-20px;
+    padding-top:50px;
+    padding-bottom:100px;
 }
