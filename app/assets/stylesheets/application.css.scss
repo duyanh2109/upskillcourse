@@ -16,7 +16,8 @@
  $primary-color: #FAF9FF;
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
- 
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
 h1,h1,h3,.navbar{
     font-family:'Bungee';
     color:$primary-color;
